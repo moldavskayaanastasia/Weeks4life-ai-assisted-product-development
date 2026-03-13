@@ -1,0 +1,17 @@
+# Prompt Examples
+
+## Initial Concept
+
+I want to create an application that visualizes a human life using a grid of weeks. Each square represents one week. Users should be able to mark life events such as birthdays, travel, or important milestones.
+
+## UI Design Prompt
+
+Please redesign the color palette to make it light, airy, and modern with white and sky-blue gradients.
+
+## Feature Expansion Prompt
+
+Add the ability to select multiple weeks and apply an event to the entire interval.
+
+## Bug Fix Prompt
+
+Birthdays are shifting by one day each year. Please fix the calculation so that the same date appears every year.
