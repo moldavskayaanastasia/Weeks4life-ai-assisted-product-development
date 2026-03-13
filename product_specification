@@ -1,0 +1,62 @@
+# Weeks4life – Product Specification
+
+## Overview
+**Weeks4life** is a conceptual web application that visualizes a human life as a grid of weeks. Each square represents one week, allowing users to track important life events, birthdays, and milestones. The project demonstrates AI-assisted development, UI/UX prototyping, and iterative refinement using Claude.
+
+**Purpose:**  
+Help users reflect on life, visualize time spent, and plan upcoming events in a clear and engaging way.
+
+---
+
+## Key Features
+- **Life Grid:** 100-year life visualized as a weekly grid  
+- **Event Creation:** Add events to individual weeks or a range of weeks  
+- **Color Coding:** Assign colors to events; overlapping events display multi-color gradients  
+- **Birthday Tracking:** Automatic or manual marking of birthdays each year  
+- **Zoom Navigation:** Adjust spacing between weeks for precise selection  
+- **Event List:** Quick overview and editing of all added events  
+- **Responsive Design:** Optimized for desktop and mobile viewports  
+
+---
+
+## User Flow
+1. User enters birth date and optional life expectancy  
+2. Life grid displays weeks as squares  
+3. User clicks or selects a range of weeks to add an event  
+4. User chooses a color and enters a description  
+5. Optional: Add events by entering a start and end date  
+6. Zoom in/out for better navigation  
+7. Event list allows quick editing of any added event  
+
+---
+
+## Technical Details
+- **Type:** Web-based prototype  
+- **Technology Stack:** HTML, CSS, JavaScript, React (conceptual)  
+- **Data Handling:** Local state for storing events (JSON-like structure)  
+- **AI Assistance:** Claude used to:
+  - Design UI concepts  
+  - Generate features and functionality  
+  - Debug logical and layout issues  
+  - Refine event and date handling logic  
+
+---
+
+## Known Limitations
+- Birthday placement approximated due to years not being exactly 52 weeks  
+- No backend or persistent storage implemented  
+- Not deployed; prototype runs as local code or interactive artifact  
+- Recurring events require manual entry  
+
+---
+
+## Future Improvements
+- Add cloud or database support for event persistence  
+- Export grid as PDF or image  
+- Develop native iOS/Android version  
+- Enhanced event categorization and filtering  
+- Integration with external calendars (Google Calendar, Outlook)  
+
+---
+
+**Note:** This project highlights **AI-assisted development, iterative design, and problem-solving**, even without a fully deployed application.
