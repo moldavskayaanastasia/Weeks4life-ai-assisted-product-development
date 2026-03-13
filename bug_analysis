@@ -1,0 +1,35 @@
+# Bug Analysis – Birthday Date Drift
+
+## Problem
+
+Birthday dates gradually shifted earlier each year.
+
+Example:
+Year 1 – Feb 22
+Year 2 – Feb 21
+Year 3 – Feb 20
+
+## Cause
+
+The application used a fixed 52-week year while real calendar years contain approximately 365 days.
+
+365 days ≈ 52.14 weeks
+
+This caused accumulated rounding errors.
+
+## Attempts to Fix
+
+1. Adding 365.25 days
+2. Using UTC calculations
+3. Calculating week-of-year
+4. Exact day difference calculation
+
+None fully solved the issue due to the structural mismatch between calendar time and week grid representation.
+
+## Conclusion
+
+The correct solution requires either:
+
+- mapping calendar dates dynamically to week indices
+or
+- abandoning strict 52-week grid logic.
